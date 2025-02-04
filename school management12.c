@@ -106,6 +106,11 @@ void main(){
 					break;
 				}
 			}
+			printf("name = %s\n",s[i].name);
+			printf("Roll number = %d\n",s[i].rollno);
+			printf("Section = %c\n",s[i].sec);
+			printf("Branch = %s",s[i].branch);
+			printf("Marks = %d\n",s[i].marks);
 		}
 	}
 }
